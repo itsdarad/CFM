@@ -1,0 +1,88 @@
+{
+    "type": "database",
+    "name": "CFMDB",
+    "objects": [
+        {
+            "type": "table",
+            "database": null,
+            "name": "CFMdata",
+            "withoutRowId": false,
+            "strict": false,
+            "ddl": "CREATE TABLE CFMdata (Id INTEGER PRIMARY KEY AUTOINCREMENT, firstname TEXT, lastname TEXT, points NUMERIC)",
+            "columns": [
+                {
+                    "name": "Id",
+                    "type": "INTEGER",
+                    "constraints": [
+                        {
+                            "type": "PRIMARY KEY",
+                            "definition": "PRIMARY KEY AUTOINCREMENT"
+                        }
+                    ]
+                },
+                {
+                    "name": "firstname",
+                    "type": "TEXT"
+                },
+                {
+                    "name": "lastname",
+                    "type": "TEXT"
+                },
+                {
+                    "name": "points",
+                    "type": "NUMERIC"
+                }
+            ],
+            "rows": [
+                [
+                    1,
+                    "josh",
+                    "davidson",
+                    15000
+                ],
+                [
+                    2,
+                    "Bola",
+                    "dave",
+                    13456
+                ],
+                [
+                    3,
+                    "Busola",
+                    "Adeyemo",
+                    13000
+                ],
+                [
+                    4,
+                    "Babara",
+                    "Malcolm",
+                    15500
+                ],
+                [
+                    5,
+                    "Jada",
+                    "Wellington",
+                    18000
+                ],
+                [
+                    6,
+                    "Angeles",
+                    "Dina",
+                    11333
+                ],
+                [
+                    7,
+                    "Mark",
+                    "Ruffalo",
+                    14400
+                ],
+                [
+                    8,
+                    "Ameer",
+                    "Hunter",
+                    12000
+                ]
+            ]
+        }
+    ]
+}
